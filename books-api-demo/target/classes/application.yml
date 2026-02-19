@@ -1,0 +1,11 @@
+p11:
+  masking:
+    enabled: true
+    fields:
+      - email
+      - phoneNumber
+      - creditCard
+      - title
+      - author
+    mask-style: PARTIAL
+    mask-character: "*"
